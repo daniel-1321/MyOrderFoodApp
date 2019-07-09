@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+ <LinearLayout
+     android:layout_marginTop="50dp"
+    android:layout_alignParentTop="true"
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <TextView
+         android:textColor="@color/btnSignActive"
+         android:textSize="50sp"
+         android:id="@+id/header"
+         android:layout_centerHorizontal="true"
+         android:gravity="center_horizontal"
+         android:layout_marginTop="30dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="MEDIFOODS (HQ)"
+         />
+
+     <TextView
+         android:textSize="20sp"
+         android:textColor="@android:color/white"
+         android:layout_marginLeft="20dp"
+         android:lineSpacingExtra="@dimen/text_size_medium"
+         android:text="1, Jalan TP 3/2,
+Taman Perindustrian Sime UEP,
+40400 Subang Jaya,
+Selangor
+Tel: +603-80113368"
+         android:layout_below="@+id/header"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="20dp"
+         />
+ </LinearLayout>
+
+</RelativeLayout>

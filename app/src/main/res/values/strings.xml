@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">OrderApp</string>
+    <string name="slogan">Eat First - Then Do</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">145592106113832</string>
+    <string name="facebook_login_protocol_name">fb145592106113832</string>
+    <string name="info">Medifoods (M) Sdn. Bhd. is a food solutions provider that manages a chain of restaurants, retail outlets, and lifestyle cafes in hospitals. Medifoods is committed to making available tasty healthy food alongside nutritional advice, organic products, and catering services. Medifoods mission is to empower People and Communities by giving them the opportunity to take charge of their health and lifestyle</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/medifoods"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:text="MEDIFOODS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@android:color/black"
+        android:lineSpacingExtra="@dimen/text_size_medium"
+        android:textSize="20sp"
+        android:text="@string/info"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/medifoods"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
